@@ -2,7 +2,7 @@
 
 <header>
     <img class="main-logo" src="<?=get_template_directory_uri()?>/assets/logo_white.png" alt="Roxburgh Motel">
-    <a class="button book-now" href="/book-now/">Book Now</a>
+    <a class="button" href="/book-now/">Book Now</a>
     
 </header>
 <header class="collapsed">

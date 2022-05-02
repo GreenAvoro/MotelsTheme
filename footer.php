@@ -6,10 +6,16 @@
         <span></span>
         <div class="footer-col">
             <p class="header-2">Units</p>
-            <p>Row 1</p>
-            <p>Row 2</p>
-            <p>Row 3</p>
-            <p>Row 4</p>
+            <?php
+            $args = [
+                'post_type' => 'post',
+                'category_name' => 'rooms'
+            ];
+
+            $q = new WP_Query($args);
+            if($q->have_posts()): while($q->have_posts()): $q->the_post();?>
+                <a href="<?=the_permalink()?>"><?= the_title() ?></a>
+            <?php endwhile; endif; ?>
         </div>
         <div class="footer-col">
             <p class="header-2">Contact</p>

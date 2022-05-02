@@ -6,6 +6,7 @@
         <?= get_the_title(); ?>
     </p>
     <?php the_content(); ?>
+    <a href="/book-now/" class="book-now">Book Now</a>
 </div>
 
 <?php get_footer(); ?>

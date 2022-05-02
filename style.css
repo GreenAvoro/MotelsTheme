@@ -101,8 +101,13 @@ footer {
     flex-direction: column;
     padding: 1rem 0;
 }
-.footer-col p {
-    margin: .5rem;
+.footer-col p, .footer-col a {
+    margin: .3rem .5rem;
+    border-bottom: 1px solid black;
+    transition: all .3s;
+}
+.footer-col a:hover {
+    border-color: white;
 }
 
 .header-2 {
@@ -312,7 +317,7 @@ footer {
     font-family: 'Barlow';
 }
 .header-logo img {
-    height: 8rem;
+    height: 7rem;
 }
 .single-header > img {
     width: 100%;
@@ -334,6 +339,28 @@ footer {
 }
 .seperator.show {
     width: 35%;
+}
+.wp-block-gallery.has-nested-images {
+    margin-top: 3rem;
+}
+/* .wp-block-image {
+    border-radius: 5px;
+    overflow: hidden;
+    width: 100% !important;
+} */
+
+.book-now {
+    background: black;
+    color: white;
+    padding: .75rem 2rem;
+    display: inline-block;
+    margin: 1rem 0;
+    transition: all .2s;
+    border: 1px solid black;
+}
+.book-now:hover {
+    background: white;
+    color: black;
 }
 @media only screen and (max-width: 1000px ){
     header.mobile {
