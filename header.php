@@ -16,6 +16,11 @@
 </head>
 <body class="">
 
-<?php if(is_single()){
-    the_post_thumbnail();
-}
+<?php if(is_single()){?>
+    <div class="single-header">
+        <?= the_post_thumbnail(); ?>
+        <a href="/" class="header-logo">
+            <img src="<?= get_template_directory_uri() ?>/assets/logo_white.png" alt="">
+        </a>
+    </div>
+<?php } ?>
