@@ -168,7 +168,14 @@ footer {
 .card-desc li {
     list-style: '- ';
 }
+.card-desc * {
+    display: none;
+}
+.card-desc figure.wp-block-gallery {
+    display: none;
+}
 .card-desc h3 {
+    display: block;
     color: #87b4d7;
     margin-bottom: 1rem;
     font-style: italic;
