@@ -5,12 +5,7 @@
     <a class="button" href="/book-now/">Book Now</a>
     
 </header>
-<header class="collapsed">
-    Collased Header
-</header>
-<header class="mobile">
-    Mobile Header
-</header>
+
 
 <img src="<?=get_template_directory_uri()?>/assets/main.png" alt="" class="header-img">
 
