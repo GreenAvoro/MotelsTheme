@@ -369,8 +369,42 @@ footer {
     background: white;
     color: black;
 }
+.placeholder-img {
+    height: 15vw;
+}
 @media only screen and (max-width: 1000px ){
     header.mobile {
         display: block;
     }
+    .card-grid {
+        grid-template-columns: 1fr 1fr;
+    }
+    .card-img img {
+        height: 19vw;
+    }
+    .placeholder-img {
+        height: 19vw;
+    }
+    .footer-grid {
+        grid-template-columns: 10rem 0fr 1fr 1fr;
+    }
+}
+@media only screen and (max-width: 600px) {
+    .card-grid {
+        grid-template-columns: 1fr;
+    }
+    .main-logo {
+        height: 5rem;
+    }
+    .card-img img {
+        height: 40vw;
+    }
+    .placeholder-img {
+        height: 40vw;
+    }
+    .button {
+        top: .5rem;
+        right: .5rem;
+    }
+
 }

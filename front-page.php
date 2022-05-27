@@ -35,7 +35,7 @@
                     <?php if(get_the_post_thumbnail()){
                         echo get_the_post_thumbnail();
                     }else{ ?>
-                        <div style="height: 15vw; width: 100%; background: #ddd; display: flex; justify-content: center; align-items: center; color: #bbb">
+                        <div class="placeholder-img" style=" width: 100%; background: #ddd; display: flex; justify-content: center; align-items: center; color: #bbb">
                             <p>No Image</p>
                         </div>
                     <?php } ?>
