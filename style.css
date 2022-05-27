@@ -347,9 +347,6 @@ footer {
 .seperator.show {
     width: 35%;
 }
-.wp-block-gallery.has-nested-images {
-    margin-top: 3rem;
-}
 /* .wp-block-image {
     border-radius: 5px;
     overflow: hidden;
@@ -490,4 +487,8 @@ footer {
     .wp-block-gallery.has-nested-images {
         margin: 3rem 0 0 0;
     }
+}
+
+@media only screen and (min-width: 1360px){
+
 }
