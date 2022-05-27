@@ -353,6 +353,17 @@ footer {
     width: 100% !important;
 } */
 
+.page-header {
+    height: 4rem;
+}
+.page-header .header-logo {
+    height: 100%;
+    position: static;
+}
+.page-header img {
+    height: 100%;
+}
+
 .book-now {
     background: black;
     color: white;
