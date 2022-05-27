@@ -392,6 +392,7 @@ footer {
 @media only screen and (max-width: 600px) {
     .card-grid {
         grid-template-columns: 1fr;
+        width: 85%;
     }
     .main-logo {
         height: 5rem;
@@ -408,15 +409,22 @@ footer {
     }
     .services-grid {
         grid-template-columns: 1fr;
+        width: 85%;
     }
     .services-img-grid {
         display: grid;
-        grid-template-columns: 1fr 1fr;
+        grid-template-columns: 1fr;
         gap: 1rem;
     }
     .services-img-grid img {
         height: auto;
         width: 100%;
     }
-
+    .activities-section-container {
+        width: 85%;
+        padding: 5rem 0;
+    }
+    .activities-grid {
+        grid-template-columns: 1fr;
+    }
 }
