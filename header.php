@@ -23,7 +23,7 @@
             <img src="<?= get_template_directory_uri() ?>/assets/logo_white.png" alt="">
         </a>
     </div>
-<?php }if(is_page()){ ?>
+<?php }if(is_page('book-now')){ ?>
     <div class="single-header">
         <?= the_post_thumbnail(); ?>
         <a href="/" class="header-logo">
