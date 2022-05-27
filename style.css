@@ -450,6 +450,7 @@ footer {
     html:not([data-scroll='0']) header {
         background: white;
         height: 3rem;
+        box-shadow: 1px 1px 5px rgba(0,0,0,0.1);
     }
     html:not([data-scroll='0']) .main-logo {
         filter: invert(100%);
@@ -472,5 +473,18 @@ footer {
     html:not([data-scroll='0']) .button {
         color: black;
         height: 4rem;
+    }
+    .footer-col {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+    }
+    .footer-col .header-2 {
+        border-bottom: 1px solid white;
+        width: 100%;
+    }
+    .content-container {
+        width: 85%;
     }
 }

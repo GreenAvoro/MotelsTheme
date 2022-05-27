@@ -2,7 +2,9 @@
 
 <footer class="">
     <div class="footer-grid">
-        <img class="footer-logo" src="<?=get_template_directory_uri()?>/assets/logo_white.png" alt="Roxburgh Motels">
+        <a href="/">
+            <img class="footer-logo" src="<?=get_template_directory_uri()?>/assets/logo_white.png" alt="Roxburgh Motels">
+        </a>
         <span></span>
         <div class="footer-col">
             <p class="header-2">Units</p>
