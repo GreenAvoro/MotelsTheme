@@ -406,5 +406,17 @@ footer {
         top: .5rem;
         right: .5rem;
     }
+    .services-grid {
+        grid-template-columns: 1fr;
+    }
+    .services-img-grid {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 1rem;
+    }
+    .services-img-grid img {
+        height: auto;
+        width: 100%;
+    }
 
 }
