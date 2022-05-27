@@ -487,4 +487,7 @@ footer {
     .content-container {
         width: 85%;
     }
+    .wp-block-gallery.has-nested-images {
+        margin: 3rem 0 0 0;
+    }
 }
