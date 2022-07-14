@@ -63,7 +63,7 @@
             $i++;
             $q->the_post();
             ?>
-            <a href="<?=get_the_permalink() ?>" class="card" <?= $i > 3 ? 'data-aos="fade-up"' : '' ?>>
+            <a href="<?=get_the_permalink() ?>" class="card" <?= $i > 0 ? 'data-aos="fade-up" data-aos-delay="'.($i*100).'"' : '' ?>>
                 <div class="card-img">
                     <?php if(get_the_post_thumbnail()){
                         echo get_the_post_thumbnail();
