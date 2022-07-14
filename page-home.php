@@ -56,12 +56,14 @@
 
     ];
     $q = new WP_Query($args);
+    $i = 0;
     if($q->have_posts()){
         ob_start();
         while($q->have_posts()){
+            $i++;
             $q->the_post();
             ?>
-            <a href="<?=get_the_permalink() ?>" class="card" data-aos="fade-up">
+            <a href="<?=get_the_permalink() ?>" class="card" <?= $i > 3 ? 'data-aos="fade-up"' : '' ?>>
                 <div class="card-img">
                     <?php if(get_the_post_thumbnail()){
                         echo get_the_post_thumbnail();
