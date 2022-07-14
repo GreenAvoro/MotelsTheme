@@ -1,13 +1,40 @@
 <?= get_header() ?>
 
+<?php if(current_user_can('administrator')): ?>
+<style>
+    header {
+        top: 32px;
+    }
+    header * {
+        top: 32px;
+    }
+    @media only screen and (max-width: 1000px) {
+        header {
+            top: 0px;
+        }
+        header * {
+            top: 0px;
+        }
+    }
+</style>
+<?php endif; ?>
 <header>
     <img class="main-logo" src="<?=get_template_directory_uri()?>/assets/logo_white.png" alt="Roxburgh Motel">
     <a class="button" href="/book-now/">Book Now</a>
     
 </header>
 
+<div class="main-banner-container">
+    <div class="main-banner">
+        <p class="main-banner-text"><span>Central Otago,</span> New Zealand</p>
+    </div>
+</div>
 
-<img src="<?=get_template_directory_uri()?>/assets/main.png" alt="" class="header-img">
+<?php if (has_post_thumbnail( $post->ID ) ): ?>
+    <?php $image = wp_get_attachment_image_src( get_post_thumbnail_id( $post->ID ), 'single-post-thumbnail' ); ?>
+    <img src="<?= $image[0] ?>"    alt="" class="header-img">
+<?php endif; ?>
+
 
 <div class="card-grid">
 

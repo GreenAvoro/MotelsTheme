@@ -79,6 +79,38 @@ body {
     z-index: -2;
 }
 
+.main-banner {
+    position: absolute;
+    z-index: 100;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.main-banner-text {
+    color: white;
+    font-family: 'Gilda Display';
+    font-size: 1.5rem;
+    font-weight: 200;
+
+}
+.main-banner-text span {
+    
+    font-weight: 900;
+}
+@media only screen and (max-width: 1000px) {
+    .main-banner {
+        bottom: 62%;
+    }
+    .main-banner-text {
+        font-size: 1rem;
+    }
+}
+
 /* FOOTER */
 footer {
     background: black;
@@ -176,7 +208,7 @@ footer {
 }
 .card-desc h3 {
     display: block;
-    color: #87b4d7;
+    color: #aa4040;
     margin-bottom: 1rem;
     font-style: italic;
     font-weight: 400;
@@ -216,7 +248,7 @@ footer {
 }
 .subheader {
     font-family: 'Gilda Display';
-    color: #87b4d7;
+    color: #aa4040;
     margin: .5rem 0;
 }
 .subheader i {
