@@ -18,6 +18,15 @@
     }
 </style>
 <?php endif; ?>
+
+<link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+<script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+<script>
+  AOS.init();
+</script>
+
+
+
 <header>
     <img class="main-logo" src="<?=get_template_directory_uri()?>/assets/logo_white.png" alt="Roxburgh Motel">
     <a class="button" href="/book-now/">Book Now</a>
@@ -52,7 +61,7 @@
         while($q->have_posts()){
             $q->the_post();
             ?>
-            <a href="<?=get_the_permalink() ?>" class="card">
+            <a href="<?=get_the_permalink() ?>" class="card" data-aos="fade-up">
                 <div class="card-img">
                     <?php if(get_the_post_thumbnail()){
                         echo get_the_post_thumbnail();
@@ -78,7 +87,7 @@
     ?>
 </div>
 
-<div class="services-section">
+<div class="services-section" data-aos="fade-up">
     <div class="services-grid">
         <div class="services-grid-panel">
             <div class="seperator"></div>
