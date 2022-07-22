@@ -96,6 +96,7 @@
             <p class="subheader"><i class="fa-light fa-location-dot"></i>Out and about Roxburgh</p>
             <p class="header-1">Local Services</p>
             <p>Roxburgh has a good variety of local services: Pharmacy, Whole Foods store, Service Station, Cafes, Restaurants and a Medical Centre.</p>
+            <br>
             <p>We're also home to the famous Jimmy's Pies.</p>
         </div>
         <div class="services-img-grid">
@@ -112,7 +113,7 @@
         <p class="header-1">Activities around Roxburgh</p>
         <p>
         The warmer climes of the sheltered Teviot Valley, flanked by rocky tussock-clad high country, create a lush valley floor of green and gold farmland and orchards. Roxburgh is a small town in the Teviot Valley, blessed with world-class fruit, produce, farming and salt-of-the-earth folk who care deeply for their community, work together and always have time for a yarn.
-        <br>
+        <br><br>
         Boasting two of the nation's Great Rides (the Roxburgh Gorge and Clutha Gold trails) and an abundance of walking and back country mountain biking trails close by, you’ll need some good grub to fuel your adventures. Fortunately, Roxburgh is home to the family run and legendary Jimmy's Pies. The recipe is kept under wraps; their reputation runs wild.
         </p>
         <div class="activities-grid">
