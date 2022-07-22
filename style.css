@@ -126,6 +126,16 @@ body {
 .sub-banner-text span{
     font-weight: 600;
 }
+.banner-grid {
+    color: white;
+    display: grid;
+    grid-template-columns: 3ch auto;
+    margin-bottom: .5rem;
+}
+.banner-grid div {
+    display: flex;
+    flex-direction: column;
+}
 @media only screen and (max-width: 1000px) {
     .main-banner {
         bottom: 62%;

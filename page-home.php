@@ -38,10 +38,21 @@
         <p class="main-banner-text"><span>Central Otago,</span> New Zealand</p>
         <br>
         <div>
-            <p class="sub-banner-text"><span>Email:</span> info@roxburghmotel.co.nz</p>
-            <br>
-            <p class="sub-banner-text"><span>Phone: </span>03 446 8093</p>
-            <p class="sub-banner-text"><span style="width: 5.5ch; display: inline-block;"></span>021 033 9314</p>
+            <div class="banner-grid">
+                <i class="fa-solid fa-location-dot"></i>
+                <a href="https://www.google.com/maps/place/Roxburgh+Motels/@-45.5429898,169.3159785,15z/data=!4m8!3m7!1s0x0:0xa0c44b135f4a534b!5m2!4m1!1i2!8m2!3d-45.5429932!4d169.3159772">1 Liddle Street, Roxburgh 9500</a>
+            </div>
+            <div class="banner-grid">
+                <i class="fa-solid fa-envelope"></i>
+                <a href="mailto:info@roxburghmotels.co.nz">info@roxburghmotels.co.nz</a>
+            </div>
+            <div class="banner-grid">
+                <i class="fa-solid fa-phone"></i>
+                <div>
+                    <a href="tel:034468093">(03) 4468093</a>
+                    <a href="tel:0210339314">(021) 0339314</a>
+                </div>
+            </div>
         </div>
     </div>
 </div>
