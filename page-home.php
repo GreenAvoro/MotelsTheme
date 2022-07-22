@@ -88,6 +88,8 @@
     }
     ?>
 
+</div>
+<div class="special-button-container">
     <a href="/book-now/" class="special-button">See all availability</a>
 </div>
 
