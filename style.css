@@ -119,6 +119,13 @@ body {
     
     font-weight: 900;
 }
+.sub-banner-text {
+    color: white;
+    font-style: italic;
+}
+.sub-banner-text span{
+    font-weight: 600;
+}
 @media only screen and (max-width: 1000px) {
     .main-banner {
         bottom: 62%;

@@ -36,6 +36,13 @@
 <div class="main-banner-container">
     <div class="main-banner">
         <p class="main-banner-text"><span>Central Otago,</span> New Zealand</p>
+        <br>
+        <div>
+            <p class="sub-banner-text"><span>Email:</span> info@roxburghmotel.co.nz</p>
+            <br>
+            <p class="sub-banner-text"><span>Phone: </span>03 446 8093</p>
+            <p class="sub-banner-text"><span style="width: 5.5ch; display: inline-block;"></span>021 033 9314</p>
+        </div>
     </div>
 </div>
 
@@ -63,7 +70,7 @@
             $i++;
             $q->the_post();
             ?>
-            <a href="<?=get_the_permalink() ?>" class="card" <?= $i > 0 ? 'data-aos="fade-up" data-aos-delay="'.($i*100).'"' : '' ?>>
+            <a href="<?=get_the_permalink() ?>" class="card" <?= $i > 3 ? 'data-aos="fade-up" data-aos-delay="'.($i*100).'"' : '' ?>>
                 <div class="card-img">
                     <?php if(get_the_post_thumbnail()){
                         echo get_the_post_thumbnail();
@@ -116,7 +123,7 @@
         <p class="subheader"><i class="fa-light fa-person-biking"></i>Things to do</p>
         <p class="header-1">Activities around Roxburgh</p>
         <p>
-        The warmer climes of the sheltered Teviot Valley, flanked by rocky tussock-clad high country, create a lush valley floor of green and gold farmland and orchards. Roxburgh is a small town in the Teviot Valley, blessed with world-class fruit, produce, farming and salt-of-the-earth folk who care deeply for their community, work together and always have time for a yarn.
+        The warmer climate of the sheltered Teviot Valley, flanked by rocky tussock-clad high country, create a lush valley floor of green and gold farmland and orchards. Roxburgh is a small town in the Teviot Valley, blessed with world-class fruit, produce, farming and salt-of-the-earth folk who care deeply for their community, work together and always have time for a yarn.
         <br><br>
         Boasting two of the nation's Great Rides (the Roxburgh Gorge and Clutha Gold trails) and an abundance of walking and back country mountain biking trails close by, you’ll need some good grub to fuel your adventures. Fortunately, Roxburgh is home to the family run and legendary Jimmy's Pies. The recipe is kept under wraps; their reputation runs wild.
         </p>
