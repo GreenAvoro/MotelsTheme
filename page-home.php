@@ -87,6 +87,8 @@
         echo ob_get_clean();
     }
     ?>
+
+    <a href="/book-now/" class="special-button">See all availability</a>
 </div>
 
 <div class="services-section" data-aos="fade-up">
