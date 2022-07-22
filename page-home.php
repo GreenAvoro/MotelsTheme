@@ -96,6 +96,7 @@
             <p class="subheader"><i class="fa-light fa-location-dot"></i>Out and about Roxburgh</p>
             <p class="header-1">Local Services</p>
             <p>Roxburgh has a good variety of local services: Pharmacy, Whole Foods store, Service Station, Cafes, Restaurants and a Medical Centre.</p>
+            <p>We're also home to the famous Jimmy's Pies.</p>
         </div>
         <div class="services-img-grid">
             <img src="<?= get_template_directory_uri()?>/assets/services.jpg" alt="">
@@ -109,7 +110,11 @@
     <div class="activities-section-container">
         <p class="subheader"><i class="fa-light fa-person-biking"></i>Things to do</p>
         <p class="header-1">Activities around Roxburgh</p>
-        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+        <p>
+        The warmer climes of the sheltered Teviot Valley, flanked by rocky tussock-clad high country, create a lush valley floor of green and gold farmland and orchards. Roxburgh is a small town in the Teviot Valley, blessed with world-class fruit, produce, farming and salt-of-the-earth folk who care deeply for their community, work together and always have time for a yarn.
+        <br>
+        Boasting two of the nation's Great Rides (the Roxburgh Gorge and Clutha Gold trails) and an abundance of walking and back country mountain biking trails close by, you’ll need some good grub to fuel your adventures. Fortunately, Roxburgh is home to the family run and legendary Jimmy's Pies. The recipe is kept under wraps; their reputation runs wild.
+        </p>
         <div class="activities-grid">
             <div class="activities-grid-column">
                 <div class="activity">
