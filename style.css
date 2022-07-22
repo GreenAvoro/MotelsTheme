@@ -239,6 +239,7 @@ footer {
     color: #aa4040;
     font-style: italic;
     font-size: 1rem;
+    padding-bottom: 1rem;
 }
 .card-desc figure.wp-block-gallery {
     display: none;
