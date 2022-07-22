@@ -95,7 +95,7 @@
                     <div class="seperator"></div>
                     <p class="card-header"><?= get_the_title() ?></p>
                     <div class="card-desc">
-                        <?= the_content(); ?>
+                        <?= the_excerpt(); ?>
                     </div>
                     
                 </div>
