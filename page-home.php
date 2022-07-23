@@ -110,6 +110,24 @@
 <div class="special-button-container">
     <a href="/book-now/" class="special-button">See all availability</a>
 </div>
+<div class="banner-grid-container">
+    <h3>Contact Us</h3>
+    <div class="banner-grid grid-2">
+        <i class="fa-solid fa-location-dot"></i>
+        <a href="https://www.google.com/maps/place/Roxburgh+Motels/@-45.5429898,169.3159785,15z/data=!4m8!3m7!1s0x0:0xa0c44b135f4a534b!5m2!4m1!1i2!8m2!3d-45.5429932!4d169.3159772">1 Liddle Street, Roxburgh 9500</a>
+    </div>
+    <div class="banner-grid grid-2">
+        <i class="fa-solid fa-envelope"></i>
+        <a href="mailto:info@roxburghmotels.co.nz">info@roxburghmotels.co.nz</a>
+    </div>
+    <div class="banner-grid grid-2">
+        <i class="fa-solid fa-phone"></i>
+        <div>
+            <a href="tel:034468093">(03) 4468093</a>
+            <a href="tel:0210339314">(021) 0339314</a>
+        </div>
+    </div>
+</div>
 
 <div class="services-section" data-aos="fade-up">
     <div class="services-grid">
