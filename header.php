@@ -24,7 +24,7 @@
         </a>
     </div>
 <?php }if(is_page('book-now')){ ?>
-    <div class="page-header">
+    <div class="single-header">
     <?= the_post_thumbnail(); ?>
         <a href="/" class="header-logo">
             <!-- <img src="<?= get_template_directory_uri() ?>/assets/logo.png" alt=""> -->
