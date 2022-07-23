@@ -114,6 +114,7 @@ body {
     font-family: 'Gilda Display';
     font-size: 1.5rem;
     font-weight: 200;
+    font-style: italic;
 
 }
 .main-banner-text span {
@@ -454,6 +455,9 @@ footer {
 .banner-grid.grid-2 {
     display: none;
     color: black;
+}
+.banner-grid-container {
+    display: none;
 }
 @media only screen and (max-width: 1000px ){
     header.mobile {
